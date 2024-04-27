@@ -1,36 +1,38 @@
-# Bot de Discord
+# Discord Bot
 
-Este es un bot de Discord que realiza varias funciones, como unirse a canales de voz, reproducir música de YouTube y comprobar actualizaciones de League of Legends.
+This is a Discord bot that performs various functions, such as joining voice channels, playing music from YouTube, and checking for updates on League of Legends.
 
-## 🛠 Instalación
+## 🛠 Installation
 
-Para instalar las dependencias necesarias para este proyecto, debes tener Python y pip ya instalados en tu sistema. Luego, ejecuta el siguiente comando en la raíz del proyecto:
+To install the necessary dependencies for this project, you must have Python and pip already installed on your system. Then, run the following command at the root of the project:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## ⚙️ Configuración
-### Variables de Entorno
-Antes de ejecutar el bot, necesitas configurar algunas variables de entorno que el bot usará para su funcionamiento. Debes crear un archivo .env en la raíz del proyecto con las siguientes variables:
+## ⚙️ Configuration
+### Environment Variables
+Before running the bot, you need to configure some environment variables that the bot will use for its operation. You must create a .env file at the root of the project with the following variables:
 
 ```bash
-DISCORD_TOKEN=TuTokenDeDiscord
-GUILD_ID=IDDeTuServidor
-CHANNEL_ID=IDDelCanal
+DISCORD_TOKEN=YourDiscordToken
+GUILD_ID=YourServerID
+CHANNEL_ID=YourChannelID
 ```
 
-Reemplaza TuTokenDeDiscord, IDDeTuServidor, e IDDelCanal con tus propios valores reales:
+Replace YourDiscordToken, YourServerID, and YourChannelID with your actual values:
 
- - DISCORD_TOKEN: El token de tu bot de Discord.
- - GUILD_ID: El ID del servidor de Discord donde tu bot estará activo.
- - CHANNEL_ID: El ID del canal de Discord donde el bot enviará mensajes y actualizaciones.
+ - DISCORD_TOKEN: The token for your Discord bot.
+ - GUILD_ID: The ID of the Discord server where your bot will be active.
+ - CHANNEL_ID: The ID of the Discord channel where the bot will send messages and updates.
 
-## 🚀 Ejecución
-Para ejecutar el bot, usa el siguiente comando desde la línea de comandos en la raíz de tu proyecto:
+## 🚀 Execution
+To run the bot, use the following command from the command line at the root of your project:
 
 ```bash
 python main.py
 ```
 
-Este comando iniciará el bot, y debería estar listo para responder a comandos en Discord.
+This command will start the bot, and it should be ready to respond to commands on Discord.
+
+*Leer este documento en otros idiomas: [Español](README.es.md).*
